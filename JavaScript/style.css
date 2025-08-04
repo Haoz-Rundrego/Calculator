@@ -1,0 +1,76 @@
+body {
+    background: linear-gradient(90deg, #e66465, #9198e5);
+    color: black;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* all site */
+.box {
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* Outro text */
+.outro {
+    width: 50%;
+    height: 100%;
+    font-size: 40px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* calculator */
+.work_place {
+    background-color: rgba(148, 227, 253, 0.2);
+
+    width: 480px;
+    height: 750px;
+    border: #000000 4px solid;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px, 20px, 20px, 20px;
+}
+
+.Lable {
+    background-color: aliceblue;
+    font-size: 23px;
+    border: #000000 2px solid;
+    border-radius: 20px;
+    width: auto;
+    height: 90px;
+    margin: 5%;
+    padding: 1%;
+}
+
+.Button_num {
+    width: 100px;
+    height: 100px;
+    margin: 2px 0px 15px 15px;
+    border: #000000 2px solid;
+    border-radius: 4px;
+    font-size: 40px;
+}
+
+@media (max-width: 768px) {
+    .box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .work_place {
+        margin-left: 0;
+        margin-top: 20px;
+        width: 90%;
+        height: auto;
+    }
+
+    .outro {
+        width: 90%;
+        text-align: center;
+    }
+}
