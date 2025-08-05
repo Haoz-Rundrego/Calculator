@@ -24,6 +24,11 @@ body {
     border-radius: 10px;
 }
 
+.coffy {
+    color: #000000;
+    text-decoration: none;
+}
+
 /* calculator */
 .work_place {
     background-color: rgba(148, 227, 253, 0.2);
